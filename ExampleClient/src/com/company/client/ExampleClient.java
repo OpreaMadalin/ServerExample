@@ -24,7 +24,7 @@ public class ExampleClient {
         DataInputStream dis = new DataInputStream(socket.getInputStream());
 
         while (true) {
-
+            System.out.println("Connected!");
             System.out.println("Waiting for input...");
             String input = stdin.nextLine();
             System.out.println("Input received: " + input);
