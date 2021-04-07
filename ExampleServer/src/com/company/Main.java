@@ -7,7 +7,6 @@ import java.io.IOException;
 public class Main {
 
     public static void main(String[] args) {
-
         ExampleServer exampleServer = new ExampleServer(31333);
 
         try {
